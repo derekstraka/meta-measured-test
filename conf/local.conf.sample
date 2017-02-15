@@ -224,7 +224,7 @@ SSTATE_MIRRORS ?= "file://.* http://build-cache.asterius.io/master/sstate-cache/
 
 SOURCE_MIRROR_URL ?= "http://build-cache.asterius.io/downloads/"
 INHERIT += "own-mirrors rm_work distrodata"
-DISTRO_FEATURES_append = " xen"
+MACHINE_FEATURES_append = " txt tpm"
 #
 # Qemu configuration
 #
